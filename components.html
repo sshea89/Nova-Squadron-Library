@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Printable components for Star Trek: Ascendancy in the Nova Squadron Library.">
+    <title>Star Trek: Ascendancy Components | Nova Squadron Library</title>
+
+    <style>
+        :root {
+            color-scheme: dark;
+            --background: #08111f;
+            --panel: #111d2e;
+            --panel-hover: #17263b;
+            --text: #edf4ff;
+            --muted: #a9b8cc;
+            --accent: #70c8ff;
+            --border: #2b425f;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background:
+                radial-gradient(circle at top, #142b47 0, var(--background) 42%);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: min(920px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 56px 0;
+        }
+
+        header {
+            margin-bottom: 36px;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: clamp(2rem, 6vw, 3.4rem);
+            letter-spacing: 0.04em;
+        }
+
+        .subtitle {
+            margin: 0;
+            color: var(--muted);
+            font-size: 1.05rem;
+        }
+
+        .game-card {
+            background: rgba(17, 29, 46, 0.94);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 26px;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.24);
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 4px;
+            font-size: 1.7rem;
+        }
+
+        h3 {
+            margin: 26px 0 12px;
+            color: var(--muted);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .document-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .document-link {
+            display: block;
+            padding: 16px 18px;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            text-decoration: none;
+            transition: background 150ms ease, transform 150ms ease,
+                        border-color 150ms ease;
+        }
+
+        .document-link:hover,
+        .document-link:focus-visible {
+            background: var(--panel-hover);
+            border-color: var(--accent);
+            transform: translateY(-1px);
+            outline: none;
+        }
+
+        .document-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .document-description {
+            display: block;
+            margin-top: 3px;
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .coming-soon {
+            margin: 0;
+            padding: 14px 16px;
+            border: 1px dashed var(--border);
+            border-radius: 10px;
+            color: var(--muted);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>Ascendancy Components</h1>
+            <p class="subtitle">
+                Printable components for Star Trek: Ascendancy.
+            </p>
+        </header>
+
+        <section class="game-card">
+
+    <h2>Star Trek: Ascendancy</h2>
+
+    <div class="document-list">
+
+        <a class="document-link" href="index.html">
+            <span class="document-title">← Return to Library</span>
+            <span class="document-description">
+                Return to the Nova Squadron Library homepage
+            </span>
+        </a>
+
+    </div>
+
+    <h3>Advancement Cards</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="https://github.com/sshea89/Nova-Squadron-Library/tree/main/Star%20Trek%20Ascendancy/Components/Advancement%20Cards"
+           target="_blank"
+           rel="noopener">
+
+            <span class="document-title">Browse Advancement Cards</span>
+
+            <span class="document-description">
+                Card fronts and backs organized by civilization
+            </span>
+
+        </a>
+
+    </div>
+
+    <h3>Consoles</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Consoles/UCR%204-0%20Consoles%20Baj%20Gor%20Vul.pdf"
+           download>
+
+            <span class="document-title">
+                Download Bajoran, Gorn and Vulcan Consoles
+            </span>
+
+            <span class="document-description">
+                Printable console sheets
+            </span>
+
+        </a>
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Consoles/UCR%204-0%20Consoles%20Dom%20Ori%20Tho.pdf"
+           download>
+
+            <span class="document-title">
+                Download Dominion, Orion and Tholian Consoles
+            </span>
+
+            <span class="document-description">
+                Printable console sheets
+            </span>
+
+        </a>
+
+    </div>
+
+    <h3>System Discs</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/System%20Discs/UCR%204-0%20System%20Discs%201.pdf"
+           download>
+
+            <span class="document-title">Download System Discs — Sheet 1</span>
+
+            <span class="document-description">
+                First printable system-disc sheet
+            </span>
+
+        </a>
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/System%20Discs/UCR%204-0%20System%20Discs%202.pdf"
+           download>
+
+            <span class="document-title">Download System Discs — Sheet 2</span>
+
+            <span class="document-description">
+                Second printable system-disc sheet
+            </span>
+
+        </a>
+
+    </div>
+
+    <h3>Tokens</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Tokens/UCR%204-0%20Tokens.pdf"
+           download>
+
+            <span class="document-title">Download Tokens</span>
+
+            <span class="document-description">
+                Printable game-token sheets
+            </span>
+
+        </a>
+
+    </div>
+
+    <h3>Trade Agreements</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Trade%20Agreements/UCR%204-0%20Trade%20Agreements%20Front.pdf"
+           download>
+
+            <span class="document-title">Download Trade Agreement Fronts</span>
+
+            <span class="document-description">
+                Printable fronts for Trade Agreement cards
+            </span>
+
+        </a>
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Trade%20Agreements/UCR%204-0%20Trade%20Agreements%20Back.pdf"
+           download>
+
+            <span class="document-title">Download Trade Agreement Backs</span>
+
+            <span class="document-description">
+                Printable backs for Trade Agreement cards
+            </span>
+
+        </a>
+
+    </div>
+
+    <h3>Turn Order Cards</h3>
+
+    <div class="document-list">
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Turn%20Order%20Cards/UCR%204-0%20Turn%20Order%20Cards%20Front.pdf"
+           download>
+
+            <span class="document-title">Download Turn Order Card Fronts</span>
+
+            <span class="document-description">
+                Printable fronts for Turn Order cards
+            </span>
+
+        </a>
+
+        <a class="document-link"
+           href="Star%20Trek%20Ascendancy/Components/Turn%20Order%20Cards/UCR%204-0%20Turn%20Order%20Cards%20Back.pdf"
+           download>
+
+            <span class="document-title">Download Turn Order Card Backs</span>
+
+            <span class="document-description">
+                Printable backs for Turn Order cards
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+        <footer>
+            Nova Squadron Discord Community
+        </footer>
+    </main>
+</body>
+</html>
