@@ -114,6 +114,36 @@
         0 0 0 1px rgba(239, 189, 102, 0.18) inset;
     }
 
+    .recently-added {
+      margin: 0 0 34px;
+      padding: 18px 20px;
+      background:
+        linear-gradient(180deg, rgba(10, 28, 36, 0.98), rgba(4, 16, 21, 0.98));
+      border: 1px solid rgba(216, 148, 44, 0.55);
+      border-left: 5px solid var(--gold);
+      border-radius: 14px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+    }
+
+.recently-added__heading {
+  margin: 0 0 6px;
+  color: var(--gold-light);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.recently-added p {
+  margin: 0;
+  color: var(--cream);
+}
+
+.recently-added a {
+  color: var(--gold-light);
+  font-weight: 800;
+}
+
     .visually-hidden {
       position: absolute;
       width: 1px;
@@ -454,6 +484,21 @@
         class="site-banner"
         src="images/nova-squadron-library-banner.png"
         alt="Nova Squadron Library — Rules, Guides, and Resources">
+
+    <section class="recently-added" aria-labelledby="recently-added-heading">
+      <h2 class="recently-added__heading" id="recently-added-heading">
+        Recently Added
+      </h2>
+
+      <p>
+        <a href="attack-wing.html">
+          Star Trek: Attack Wing / Alliance
+        </a>
+        now has its own resource page with the core rulebook and quickstart rules.
+      </p>
+    </section>
+
+<section class="browse-section">
     </header>
 
     <section aria-labelledby="browse-heading">
