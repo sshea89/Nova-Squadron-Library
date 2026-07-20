@@ -37,9 +37,30 @@
             padding: 56px 0;
         }
 
-        header {
-            margin-bottom: 36px;
-        }
+        .site-header {
+  margin-bottom: 36px;
+}
+
+.site-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
         h1 {
             margin: 0 0 8px;
@@ -136,11 +157,15 @@
 
 <body>
     <main class="container">
-        <header>
-            <h1>Nova Squadron Library</h1>
-            <p class="subtitle">
-                Rules, references, and player aids for the Nova Squadron Discord community.
-            </p>
+        <header class="site-header">
+
+          <h1 class="visually-hidden">Nova Squadron Library</h1>
+
+          <img
+            class="site-banner"
+            src="images/nova-squadron-library-banner.png"
+            alt="Nova Squadron Library — Rules, Guides, and Resources">
+
         </header>
 
         <section class="game-card">
